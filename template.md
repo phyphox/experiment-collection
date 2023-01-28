@@ -2,11 +2,11 @@
 tags: example-tag
 ---
 
-# Summary
+# EXPERIMENT NAME
 This file is the template for all experiments. It contains all information needed for a full description of the expertiments. All experiments should use the structure of this template document. It also contains explanations of the tags and some examples for structuring the experiment.
 
 The experiment should contain the following sections:
-1. Summary
+1. *The name of the experiment*
 2. Materials
 3. Setup
 4. Measurement
@@ -17,9 +17,11 @@ The experiment should contain the following sections:
 9. Troubleshooting / problems and resolutions (optional)
 10. Literature and sources
 
+The content of the section with the name of the experiment (this section) should contain a brief summary of the experiment.
+
 The contents shold be written in markdown ad defined by the [CommonMark](https://spec.commonmark.org/) standard, where a extensive documentation can be found. Some examples are also given here.
 
-## Tagging
+### Tagging
 Tags are given in the following categories (given as an array and separated by comma):
 
 **Topic**: Select one or more from *[Mechanics, Waves and Sound and Optics, Electricity and Magnetism, Thermal and Statistical, Astronomy, Quantum]*. The topic tags are inspired by [physport](https://www.physport.org/).
@@ -32,33 +34,33 @@ Tags are given in the following categories (given as an array and separated by c
 
 **Material**: The level of additional material, select **one** from *[Smartphone only, Household items required, Basic experiment material required, Special equipment required]*.
 
-# Material
+## Material
 A short description of the used material.
 
-# Setup
+## Setup
 The setup of the experiemt, best visualized with some images. The phyphox code of the experiment belongs here.
 
 How to display images correctly is a **TODO**.
 
-# Measurement
+## Measurement
 The measurement data.
 
-# Analysis
+## Analysis
 Further analysis of the data. 
 
-# Supplementary material
+## Supplementary material
 Additional material, for example working sheets.
 
-# Examples
+## Examples
 Some example measurements with their analysis.
 
-# Experiment variants
+## Experiment variants
 If the experiemts has some variants, for example different variables are measured, they go here.
 
-# Troubleshooting / problems and resolutions
+## Troubleshooting / problems and resolutions
 If problems can occur, the resolutions are noted here.
 
-# Literature and sources
+## Literature and sources
 The source of the experiment and some additional literature if existing.
 
 How to cite is still a **TODO**.
