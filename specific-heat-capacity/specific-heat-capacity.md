@@ -22,8 +22,8 @@ This experiment enables the measurement of the specific heat capacity of an unkn
 Both jars have to be filled with a known amount of water. The first water filled jar is used to heat up the probe evenly. The second jar contains water at a lower temperature. Attach one temperature probe inside or on the sample and the second one in the cooler jar. Place a tripod above the water jars to be able to hang the sample inside the water jars with a thread. 
 
 Scan the following qr-code for the phyphox-experiment:
-![qr_specific_heat_capacity](qr_specific_heat_capacity.png) 
 
+<img src="images/qr-specific-heat-capacity.png"  width="120" height="120">
 
 ## Measurement
 Open the phyphox experiment and enter the respective data (amount of water and weight of sample) Heat up the sample inside the first jar. Wait until the temperature stays at a constant level before hanging the sample in the second jar. Start the phyphox experiment and press "Begin Measurement" before swapping the hot probe into the cooler water jar. The temperature of the probe and the water equalize over time. After the temperature has equalized, phyphox displays the calculated specific heat capacity.
@@ -38,9 +38,9 @@ where $c_{water} = 4.19 \frac{kJ}{kg \cdot K}$ the specific heat capacity for wa
 
 ## Examples
 ### Result for copper
-![copper](copper.png)
+![copper](images/result_copper.png)
 ### Result for graphite
-![graphite](graphite.png)
+![graphite](images/result_graphite.png)
 
 ## Experiment Variants
 The experimental setup can be used for various materials such as copper or graphite.
