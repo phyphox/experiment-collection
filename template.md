@@ -11,6 +11,12 @@ levels:
   - 2
 materials:
   - "Smartphone only"
+tags:
+  - "phyphox"
+  - "Smartphone"
+  - "Experiment"
+  - "Gyroscope"
+  - "Coil"
 ---
 
 # EXPERIMENT NAME
@@ -41,9 +47,11 @@ Tags are given in the following categories (given as an array and separated by c
 
 **Level**: Select one or more from `[0, 1, 2a, 2b, 3, 6, 7]`. This refers to the ISCED-2011 Level. `0` is pre-school (Vorschule in Germany), `1` is primary school (Grundschule), `2` is lower secondary education but we distinguish in the German Orientierungsstufe (`2a`, class level 5 and 6) and Sekundarstufe I (`2b`, class level 7, 8, 9 and 10). `3` is upper secondary education (Oberstufe), `6` is Bachelor level and `7` is Master level. Inspired by the German [Bildungsministerium](https://www.datenportal.bmbf.de/portal/de/G293.html).
 
-**Competencies**: Only for German education, this is a **TODO**.
+**Competencies**: Only for German education, this is a **TODO** (which one do we use here?, the ones from the KMK?).
 
 **Material**: The level of additional material, select **one** from `[Smartphone only, Household items required, Basic experiment material required, Special equipment required]`.
+
+**Tags**: This is not used at the moment, but good for search engine optimization. The tags can be chose more or less free, but should be consistent.
 
 **It is important to write all tags correctly, else the tagging system will fail.**
 
@@ -51,7 +59,7 @@ Tags are given in the following categories (given as an array and separated by c
 A short description of the used material.
 
 ## Setup
-The setup of the experiemt, best visualized with some images. The phyphox code of the experiment belongs here.
+The setup of the experiemt, best visualized with some images. The phyphox code of the experiment belongs here. The phyphox file has to be linked as `[Dowload Name](/path/to/file.phyphox)`.
 
 First, we have an images, which goes over the whole page. All images should be clickable, so they can be shown in a new tab in fullscreen. This is achieved by the snytax `[![Alternative Text](image path to show when clicked)][image path]`
 
@@ -70,18 +78,19 @@ The measurement data.
 Further analysis of the data. 
 
 ## Supplementary material
-Additional material, for example working sheets.
+Additional material, for example working sheets. They can be dowloaded with `[Name](/path/to/file.pdf)`. The correct path is still a **TODO**.
 
 ## Examples
 Some example measurements with their analysis.
 
 ## Experiment variants
-If the experiemts has some variants, for example different variables are measured, they go here.
+If the experiemts has some variants, for example different variables are measured, they go here.[^1]
 
 ## Troubleshooting / problems and resolutions
-If problems can occur, the resolutions are noted here.
+If problems can occur, the resolutions are noted here.[^2]
 
 ## Literature and sources
-The source of the experiment and some additional literature if existing.
+The source of the experiment and some additional literature if existing. This has to be the last chapter, since the foonotes in the text are offset by a small line.
 
-How to cite is still a **TODO**.
+[^1]: As you can see in the sections above, there are two citations. The citation style is specified below.
+[^2]: Author (year), *title*, Publisher/Journal Name (doi: XXX)
