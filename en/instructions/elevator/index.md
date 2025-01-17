@@ -77,7 +77,7 @@ The a-t diagram corresponds to the raw data of the z-axis (perpendicular to the 
 
 ## Results
 
-![Screenshot of elevator experiment with data from a ride across five floors.](../elevator-example.png)
+![Screenshot of elevator experiment with data from a ride across five floors.](elevator-example.png)
 *This screenshot of an older version of phyphox shows an example for a-t, v-t and s-t digrams generated during the ride of an elevator from floor 0 to floor 5.*
  
 ## Problems and Solutions
@@ -100,7 +100,7 @@ This experiment allows for many variations, such as using it while climbing stai
 
 ## Worksheets / material
 
-* Worksheet by Solmaz Khodaeifaal (Simon Fraser University): [docx](../files/elevator_khodaeifaal.docx), [pdf](../files/elevator_khodaeifaal.pdf)
+* Worksheet by Solmaz Khodaeifaal (Simon Fraser University): [docx](files/elevator_khodaeifaal.docx), [pdf](files/elevator_khodaeifaal.pdf)
 
 We are always happy to receive and share your worksheets. Get in touch with us at contact@phyphox.org
 

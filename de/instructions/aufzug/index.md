@@ -73,7 +73,7 @@ Das a-t- Diagramm entspricht den Rohdaten der z-Achse (senkrecht zum Bildschirm)
 
 ## Results
 
-![Screenshot des Aufzug-Experiments mit Daten von einer Fahrt über fünf Etagen.](../elevator-example.png)
+![Screenshot des Aufzug-Experiments mit Daten von einer Fahrt über fünf Etagen.](elevator-example.png)
 *Dieser screenshot von einer älteren Version von phyphox zeigt ein Beispiel für a-t-, v-t- und s-t-Digramme, die bei einer Fahrt eines Aufzugs von Etage 0 in Etage 5 entstehen.*
 
 ## Probleme und Lösungen
