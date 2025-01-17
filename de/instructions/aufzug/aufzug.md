@@ -1,8 +1,6 @@
 ---
-translationKey: "Elevator Instruction"
 title: "Aufzug"
-date: 2025-01-07T14:21:17+01:00
-draft: false
+translationKey: "Elevator Instruction"
 author: 
   - Sebastian Staacks
 CreativeCommons: ['BY']
@@ -10,17 +8,16 @@ categories:
   - 'Mechanics'
 sensors:
   - 'Pressure'
-levels: ['2a', '2b', '3', '6']  # see doc for explanation. Remove everything else
+levels: ['2a', '2b', '3', '6']
 video: ['Localized']
 materials:
   - 'Smartphone only'
-tags: # All Tags start upper-case expect for 'phyphox'. This list can be expanded!
+tags:
   - 'Gleichförmige Bewegung'
   - 'Barometrische Höhenformel'
   - 'Luftdruck'
   - 'Kinematik'
 summary: 'Bestimme die Geschwindigkeit eines Aufzugs und stelle seine Orts-, Geschwindigkeits- und Beschleunigungsfunktion dar.'
-version: '0.1.0'
 
 ---
 
@@ -73,6 +70,11 @@ $$
 Da der Absolutwert unter anderem metereologischen Schwankungen unterliegt, wird der erste Messwert als Referenz genutzt und auf die Höhe Null gesetzt, so dass in Folge eine Höhendifferenz bestimmt wird. Zudem mittelt diese Konfiguration die Druckmessungen in Intervallen von 1s um das Rauschen zu reduzieren, auch wenn der verbaute Luftdrucksensor höhere Raten unterstützt.
 
 Das a-t- Diagramm entspricht den Rohdaten der z-Achse (senkrecht zum Bildschirm) des Beschleunigungssensors.
+
+## Results
+
+![Screenshot des Aufzug-Experiments mit Daten von einer Fahrt über fünf Etagen.](../elevator-example.png)
+*Dieser screenshot von einer älteren Version von phyphox zeigt ein Beispiel für a-t-, v-t- und s-t-Digramme, die bei einer Fahrt eines Aufzugs von Etage 0 in Etage 5 entstehen.*
 
 ## Probleme und Lösungen
 

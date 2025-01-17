@@ -1,8 +1,6 @@
 --- 
 title: "Elevator"
-date: 2025-01-07T14:21:17+01:00
 translationKey: "Elevator Instruction"
-draft: false
 author: 
   - Sebastian Staacks
 CreativeCommons: ['BY']
@@ -10,17 +8,16 @@ categories:
   - 'Mechanics'
 sensors:
   - 'Pressure'
-levels: ['2a', '2b', '3', '6']  # see doc for explanation. Remove everything else
+levels: ['2a', '2b', '3', '6']
 video: ['English']
 materials:
   - 'Smartphone only'
-tags: # All Tags start upper-case expect for 'phyphox'. This list can be expanded!
+tags:
   - 'Uniform motion'
   - 'Atmospheric pressure'
   - 'Barometric formula'
   - 'Kinematics'
 summary: 'Measure the speed of an elevator and visualize its position, velocity and acceleration.'
-version: '0.1.0'
 ---
 
 {{< youtube y-goBtfuXAM >}}
@@ -78,6 +75,10 @@ Since the absolute value is subject to meteorological fluctuations, the first me
 
 The a-t diagram corresponds to the raw data of the z-axis (perpendicular to the screen) of the acceleration sensor.
 
+## Results
+
+![Screenshot of elevator experiment with data from a ride across five floors.](../elevator-example.png)
+*This screenshot of an older version of phyphox shows an example for a-t, v-t and s-t digrams generated during the ride of an elevator from floor 0 to floor 5.*
  
 ## Problems and Solutions
 

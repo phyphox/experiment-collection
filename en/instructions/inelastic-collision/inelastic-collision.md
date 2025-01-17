@@ -1,8 +1,6 @@
 --- 
 title: "(In)elastic Collision"
-date: 2024-12-17T11:42:40+01:00
 translationKey: "Inelastic Collision Instruction"
-draft: false
 author: 
   - Sebastian Staacks
 CreativeCommons: ['BY']
@@ -10,11 +8,11 @@ categories:
   - 'Mechanics'
 sensors:
   - 'Microphone'
-levels: ['2a', '2b', '3', '6']  # see doc for explanation. Remove everything else
+levels: ['2a', '2b', '3', '6']
 video: ['English']
 materials:
   - 'Household items'
-tags: # All Tags start upper-case expect for 'phyphox'. This list can be expanded!
+tags:
   - 'Ball'
   - 'Inelastic Collision'
   - 'Elastic Collision'
@@ -22,7 +20,6 @@ tags: # All Tags start upper-case expect for 'phyphox'. This list can be expande
   - 'Free Fall'
   - 'Acoustic Stopwatch'
 summary: 'Determine the initial height and loss of energy of a bouncing ball from the timing of its impact sounds'
-version: '0.1.0'
 ---
 
 {{< youtube ikvtPDwV1FE >}}

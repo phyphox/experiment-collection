@@ -1,8 +1,6 @@
 --- 
-translationKey: "Inelastic Collision Instruction"
 title: "(In)elastischer Stoß"
-date: 2024-12-17T11:42:40+01:00
-draft: false
+translationKey: "Inelastic Collision Instruction"
 author: 
   - Sebastian Staacks
 CreativeCommons: ['BY']
@@ -10,11 +8,11 @@ categories:
   - 'Mechanics'
 sensors:
   - 'Microphone'
-levels: ['2a', '2b', '3', '6']  # see doc for explanation. Remove everything else
+levels: ['2a', '2b', '3', '6']
 video: ['Localized']
 materials:
   - 'Household items'
-tags: # All Tags start upper-case expect for 'phyphox'. This list can be expanded!
+tags:
   - 'Ball'
   - 'Inelastischer Stoß'
   - 'Elastischer Stoß'
@@ -22,7 +20,6 @@ tags: # All Tags start upper-case expect for 'phyphox'. This list can be expande
   - 'Freier Fall'
   - 'Akustische Stoppuhr'
 summary: 'Bestimme die Anfangshöhe und die Energiebilanz eines springenden Balls anhand der Zeiten seiner Stoßgeräusche.'
-version: '0.1.0'
 
 ---
 
