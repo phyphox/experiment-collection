@@ -77,8 +77,7 @@ The a-t diagram corresponds to the raw data of the z-axis (perpendicular to the 
 
 ## Results
 
-![This screenshot of an older version of phyphox shows an example for a-t, v-t and s-t digrams generated during the ride of an elevator from floor 0 to floor 5.](elevator-example.png)
-{width=50%}
+![This screenshot of an older version of phyphox shows an example for a-t, v-t and s-t digrams generated during the ride of an elevator from floor 0 to floor 5.](elevator-example.png){width=50%}
  
 ## Problems and Solutions
 
