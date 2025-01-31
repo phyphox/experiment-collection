@@ -210,9 +210,16 @@ This produces the following:
 
 ---
 
+**Important:** Our system supports some non-standard ways to allow for standalone images with captions and some resizing. If an image stands on its own in a paragraph, it will be set as a figure with the alt text underneath as caption. You can also add a width attribute to make it smaller. However, you should only use a percentage here as other units do not translate well across different media (i.e. screen formats like HTML and print formats like PDF require a defined DPI setting). So, a better way to set the too large screenshot from above would be this:
+
+```
+![Screenshot of phyphox showing the elevator experiment with data from a ride across five floors.](en/instructions/elevator/elevator-example.png){width=50%}
+```
+
+Note, that this width-parameter is not understood by github, so it will not show in this readme. Check out the instructions that are already in this repository (for example en/instructions/elevator/index.md) to see examples for this usage.
+
 There are several things to note here:
-- The alt text is not an image caption. It should not add additional information, but describe the image or provide the same information as the image. (In fact, the example above is bad, but used here for brevity.)
-- There are no formatting tools to create captions, to resize the images or to let the text flow around them. The reason is that this needs to be translated into print formats (PDF) as well as screen formats (the webpage) and into technically different formats (like docx). There is no simple unified way to do this, but some tools to give hints about the preferred formatting will be added in the future. For now it is absolutely ok if the image is not placed elegantly. Simply include it at an appropriate location and add a caption as a paragraph in italics (see above) below it.
+- Formatting tools are limited and at the moment it is only recommended to use the width-attribute as a percentage and the alt text as a caption for standalone images. The reason is that this needs to be translated into print formats (PDF) as well as screen formats (the webpage) and into technically different formats (like docx). There is no simple unified way to do this, and we already implemented some hacks to allow for a unified way for the webpage (Hugo) and generated files (Pandoc).
 - The URL to an image should be a relative path. While absolute paths (i.e. ones starting with https://) work in this preview here, they will break if the document is converted alter.
 - The URL should be relative to the Markdown document. I.e. in the example above the image is in `en/instructions/elevator/elevator-example.png` because this readme file is in the root folder. However, if you want to reference this image from the index.md file in `en/instructions/elevator/` the file `elevator-example.png` is just next to it and you should only use `elevator-example.png` as a URL (without the `en/...` part).
 
