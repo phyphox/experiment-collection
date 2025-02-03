@@ -22,14 +22,14 @@ summary: 'A simple experiment to measure the heart beat with an accelerometer by
 
 ## Overview
 
-The phone's accelerometer is sensitive enough to register and clearly visualize a heart beat. A participant simply needs to lie on their back and hold still with the phone placed on their chest. This simple setup allows determining the the heart beat and explore how it slows during resting periods (category biology) or it can be used to introduce students to the concept of frequency and periods for periodic processes (most physics classes, mechanics in particular).
+The phone's accelerometer is sensitive enough to register and clearly visualize a heart beat. A participant simply needs to lie on their back and hold still with the phone is placed on their chest. This simple setup allows determining the heart beat and explore how it slows during resting periods (category biology) or it can be used to introduce students to the concept of frequency and periods for periodic processes (physics classes, mechanics in particular).
 
-*Note that phyphox also supports reading out generic pulse meters vie Bluetooth Low Energy simply by searching for Bluetooth devices via the plus menu on the home screen. This is not covered in this article.*
+*Note that phyphox also supports reading out generic pulse meters using Bluetooth Low Energy simply by searching for Bluetooth devices via the plus menu on the home screen. This is not covered in this article.*
 
 ### Topics covered
 
-This experiment can be used as a simple means to monitor someone's heart beat (for demonstration purposes not for medical applications) or as a simple illustration of periodic signals.
-- The simple setup is good enough to see changes in the pulse frequency as the participant is in a resting position. However, periods have to read manually (see below) and it will not be usable to monitor the heart rate during physical activities.
+This experiment can be used as a simple means to monitor someone's heart rate (for demonstration purposes not for medical applications) or as a simple illustration of periodic signals.
+- The simple setup is good enough to see changes in the pulse frequency as the participant is in a resting position. However, periods have to be read manually (see below) and it will not be usable to monitor the heart rate during physical activities.
 - The heart rate can be an introduction to periodic processes in which students learn the concepts of frequency and period by measuring the heart beat's period and calculating a frequency. This typically includes conversion between Hz and beats per minute.
 
 ### Required materials
@@ -46,7 +46,7 @@ The participant needs to lie down on their back. The phone is placed on their ch
 
 ## Execution
 
-Select "Acceleration with g" from the phyphox main menu. Optionally, set a countdown by selecting "Timed Run" from the menu in the top right corner. A countdown of three seconds helps to avoid recording the touch when starting the measurement and the duration should be long enough to complete the measurement (for example 30s). Press the triangle to start the measurement while the phone is already on the participants chest. Either wait for the measurement to stop (if a countdown is used) or carefully stop the measurement while avoiding to introduce an additional signal from your touch.
+Select "Acceleration with g" from the phyphox main menu. Optionally, set a countdown by selecting "Timed Run" from the menu in the top right corner. A countdown of three seconds helps to avoid recording the touch when starting the measurement and the duration should be long enough to complete the measurement (for example 30s). Press the triangle to start the measurement while the phone is already on the participant's chest. Either wait for the measurement to stop (if a countdown is used) or carefully stop the measurement while avoiding to introduce an additional signal from your touch.
 
 ## Data analysis
 
