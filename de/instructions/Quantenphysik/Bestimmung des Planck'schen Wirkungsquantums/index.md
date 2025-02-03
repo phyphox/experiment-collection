@@ -28,7 +28,7 @@ tags:
 summary: 'In diesem Experiment wird das Planck'sche Wirkungsquantum über die Schwellenspannungen von LEDs verschiedener Wellenlängen bestimmt.'
 ---
 
-## - Aufbau und Durchführung -
+## Aufbau und Durchführung
 # Material
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
