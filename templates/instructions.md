@@ -20,13 +20,15 @@ CreativeCommons: ['BY']                 # License of this document and embedded 
 # See https://creativecommons.org/share-your-work/ for details
 
 categories:                             # Pick one or more of the following and remove the others. Do not translate them. Get in touch with the phyphox team before adding new categories or if an item is not automatically translated in the final document
-  - 'Mechanics'
+  - 'Biology'
+  - 'Chemistry'
   - 'Electricity and Magnetism'
-  - 'Thermodynamics'
-  - 'Quantum mechanics'
   - 'Mathematics'
-  - 'Sound'
+  - 'Mechanics'
   - 'Optics'
+  - 'Quantum mechanics'
+  - 'Sound'
+  - 'Thermodynamics'
 
 sensors:                                # Pick one or more of the following and remove the others. Do not translate them. Get in touch with the phyphox team before adding new sensor types or if an item is not automatically translated in the final document
   - 'Accelerometer'
