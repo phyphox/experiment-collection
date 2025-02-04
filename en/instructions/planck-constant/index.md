@@ -51,7 +51,7 @@ summary: 'In this experiment the Planck constant is ascertained by measuring the
 
 ## Execution
 1. Open the *phyphox* experiment **PLA**.
-2. Select your *phyphox*:h box (numbering on the side of the box). \[Rightarrow\] Now the box connects to the app an begins to send the absolute value of the voltage applied.
+2. Select your *phyphox*:h box (numbering on the side of the box). \[\Rightarrow\] Now the box connects to the app an begins to send the absolute value of the voltage applied.
 3. Place your smartphone on the blackout box so that the smartphone camera is situated directly above the reflective material (white). Use the support element if necessary.
 ---
 4. Insert the LED inset into the blackout box.
