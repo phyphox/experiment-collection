@@ -25,7 +25,7 @@ tags:
   - 'LEDs'
   - 'Schwellenspannung'
 
-summary: 'In diesem Experiment wird das Planck'sche Wirkungsquantum über die Schwellenspannungen von LEDs verschiedener Wellenlängen bestimmt.'
+summary: 'In diesem Experiment wird das Planck''sche Wirkungsquantum über die Schwellenspannungen von LEDs verschiedener Wellenlängen bestimmt.'
 ---
 
 # - Aufbau und Durchführung -
