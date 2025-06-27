@@ -111,11 +111,11 @@ Alle hier vorgestellten Messkonfigurationen führen eine Fouriertransformation d
 
 Für viele Messungen genügt es, im Spektrum die Frequenz mit der höchsten Amplitude abzulesen. Wichtig ist jedoch, die Grenzen zu kennen, innerhalb derer dies zutrifft.
 
-Die Frequenz-Achse des Fourier-Spektrums verläuft immer von 0 Hz bis zur Hälfte der Abtastrate $f$ des Ausgangssignal. Misst man beispielsweise mit einem Beschleunigungssensor mit einer Abtastrate von \(f = 400\,\mathrm{Hz}\), erhält man ein Frequenzspektrum von 0 Hz bis 200 Hz (siehe [Abtasttheorem](https://de.wikipedia.org/wiki/Nyquist-Shannon-Abtasttheorem)). Da die Abtastrate durch das jeweilige Gerät begrenzt ist, hat man hierauf wenig Einfluss.
+Die Frequenz-Achse des Fourier-Spektrums verläuft immer von 0 Hz bis zur Hälfte der Abtastrate \(f\) des Ausgangssignal. Misst man beispielsweise mit einem Beschleunigungssensor mit einer Abtastrate von \(f = 400\,\mathrm{Hz}\), erhält man ein Frequenzspektrum von 0 Hz bis 200 Hz (siehe [Abtasttheorem](https://de.wikipedia.org/wiki/Nyquist-Shannon-Abtasttheorem)). Da die Abtastrate durch das jeweilige Gerät begrenzt ist, hat man hierauf wenig Einfluss.
 
 Die Anzahl der Punkte auf der Frequenz-Achse entspricht hierbei der Hälfte der aufgezeichneten Messwerte \(N\). Nimmt man im obigen Beispiel also 256 Datenpunkte auf, werden die 200 Hz durch 128 Punkte im Spektrum abgedeckt. Dies bestimmt die spektrale Auflösung, welche somit der Abtastrate geteilt durch die Anzahl der Messpunkte entspricht \(\Delta f = f/N\). Im Beispiel liegen die Punkte im Spektrum somit im Abstand von etwa 1,56 Hz.
 
-Beachtet man, dass die Dauer zum Aufzeichnen einer Anzahl von Messwerten \(T = N/f\) entspricht, kann man auch feststellen, dass die spektrale Auflösung dem Kehrwert der Messdauer entspricht \(\Delta f = 1/T$\). Im Beispiel dauert es 0,64 s um 256 Datenpunkte zu erhalten, was dem Kehrwert des Abstands der Datenpunkte im Spektrum von 1,56 Hz entspricht.
+Beachtet man, dass die Dauer zum Aufzeichnen einer Anzahl von Messwerten \(T = N/f\) entspricht, kann man auch feststellen, dass die spektrale Auflösung dem Kehrwert der Messdauer entspricht \(\Delta f = 1/T\). Im Beispiel dauert es 0,64 s um 256 Datenpunkte zu erhalten, was dem Kehrwert des Abstands der Datenpunkte im Spektrum von 1,56 Hz entspricht.
 
 Hieraus ergibt sich ein Kompromiss aus Reaktionszeit der Messung und der Frequenzauflösung. Misst man eine konstante Drehzahl, kann eine sehr hohe Anzahl von Datenpunkten gewählt und so eine hohe Auflösung erzielt werden. Möchte man jedoch eine sich verändernde Drehzahl messen, muss die Anzahl der Punkte so gewählt werden, dass Änderungen schnell genug erfasst werden, zugleich aber die Frequenz noch genau genug bestimmt werden kann.
 
