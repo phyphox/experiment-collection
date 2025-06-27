@@ -39,6 +39,7 @@ sensors:                                # Pick one or more of the following and 
   - 'Light'         # This is the light sensor on Android phones. For the camera see "Camera"
   - 'Location'      # GPS and similar global navigation satellite systems
   - 'Magnetometer'
+  - 'Microphone'
   - 'Pressure'
   - 'Proximity'     # The proximity sensor at the top of the screen. For LiDAR / Time of flight sensors that are part of the camera system see "depth"
   - 'Speaker'       # Technically not a sensor, but audio output via loud speaker or connected headphones
