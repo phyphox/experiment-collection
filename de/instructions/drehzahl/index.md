@@ -5,13 +5,10 @@ author:
   - Sebastian Staacks
 CreativeCommons: ['BY']
 categories:
-  - 'Biology'
-  - 'Chemistry'
   - 'Mechanics'
 sensors:
   - 'Accelerometer'
   - 'Camera'
-  - 'Gyroscope'
   - 'Magnetometer'
   - 'Microphone'
 levels: ['2a', '2b', '3', '6']
