@@ -34,7 +34,7 @@ summary: 'Miss die Drehzahl verschiedener Experimente und Geräte mittels Beschl
 
 Diese Anleitung beschreibt verschiedene Möglichkeiten, um mit phyphox Drehzahlen zu bestimmen. In diesem Fall handelt es sich weniger um ein eigenständiges Experiment als um ein Werkzeug, welches zur Auswertung anderer Experimente, aber auch für Alltagsanwendungen genutzt werden kann.
 
-Zur Bestimmung der Drehfrequenz können der Beschleunigungssensor, das Magnetometer, das Mikrofon oder die Kamera genutzt werden. Alle vier Varianten hängen davon ab, welches Objekt bzw. Gerät gemessen werden soll, wie hoch die Drehfrequenz ist und welche Auflösung benötigt wird.
+Zur Bestimmung der Drehfrequenz können der Beschleunigungssensor, das Magnetometer, das Mikrofon oder die Kamera genutzt werden. Welche der vier Varianten sich am besten eignet, hängt davon ab, welches Objekt bzw. Gerät gemessen werden soll, wie hoch die Drehfrequenz ist und welche Auflösung benötigt wird.
 
 ![Messung der Drehzahl einer Waschmaschine mittels Beschleunigungssensor. Die Maschine befindet sich im Schleudergang bei 1200 Umdrehungen pro Minute](washing_machine.jpg){width=80%}
 
@@ -59,28 +59,28 @@ Der Aufbau richtet sich nach der physikalischen Größe, über die die Drehzahl 
 
 Wenn die zu messende Drehbewegung eine Vibration erzeugt, selbst wenn es sich um eine sehr schwache Vibration handelt, bietet sich die Messung über den Beschleunigungssensor an. Hierzu muss das Handy lediglich so platziert werden, dass es leicht mitvibrieren kann. Es kann auf das zu messende Gerät gelegt werden (z.B. Waschmaschine oder Festplatte) oder auch auf dem gleichen Tisch liegen. In der Regel entspricht die Vibrationsfrequenz der Drehzahl. Ausnahmen stellen Verbrennungsmotoren dar, bei denen nicht die Vibration der Umdrehungen, sondern die Takte der einzelnen Zylinder die Messung dominieren und dadurch eine vielfache Frequenz ermittelt wird.
 
-Die höchste messbare Frequenz richtet sich nach der halben Abtastrate des Beschleunigungssensors im jeweiligen Smartphone-Modell. Typisch messbaer Drehfrequenzen sind hier 50 Hz (3.000 1/min) bei iPhones bis zu 250 Hz (15.000 1/min) bei vielen Android-Modellen.
+Die höchste messbare Frequenz richtet sich nach der halben Abtastrate des Beschleunigungssensors im jeweiligen Smartphone-Modell. Typisch messbare Drehfrequenzen sind hier bei iPhones 50 Hz (3.000 1/min) und bei vielen Android-Geräten bis zu 250 Hz (15.000 1/min).
 
 ![Messung der Drehzahl eines Verbrennungsmotors mittels Beschleunigungssensor. Das Smartphone liegt hierbei auf dem Amaturenbrett des Autos. Zu beachten ist, dass die von phyphox gemessene Vibrationsfrequenz der doppelten vom Auto angezeigten Drehzahl entspricht, da bei Verbrennungsmotoren die Takte der Zylinder die Vibration dominieren.](car.jpg){width=80%}
 
 ### Messung mittels Magnetometer
 
-Reicht die Vibration nicht aus oder kann das Smartphone nicht sinnvoll am Ort der Vibration platziert werden, bietet sich eine magnetische Messung an. Hierzu muss mit der Drehbewegung eine periodische Änderung des Magnetfelds auftreten. Dies ist beispielsweise bei Elektromotoren aufgrund der Bauweise gegeben, kann aber auch durch ein magnetisieren ferromagnetischer Teile des Aufbaus (z.B. metallische Arme eines Fidgetspinners) oder durch das Anbringen eines kleinen Magneten (wie bei Fahrradcomputern in den Speichen üblich) bei vielen Experimenten leicht ergänzt werden. Je nach Stärke des Magnetfelds kann sich das Smartphone in einem deutlichen Abstand zur Drehbewegung befinden. Zu beachten ist, dass die meisten Magnetometer im Smartphone bei wenigen Millitesla sättigen, was zu stärkerer Ausbildung von Obertönen im Spektrum führen kann (siehe Probleme und Lösungen unten). Hier sollten Magnet und Abstand des Handys sinnvoll gewählt werden.
+Reicht die Vibration nicht aus oder kann das Smartphone nicht sinnvoll am Ort der Vibration platziert werden, bietet sich eine magnetische Messung an. Hierzu muss mit der Drehbewegung eine periodische Änderung des Magnetfelds auftreten. Dies ist beispielsweise bei Elektromotoren aufgrund der Bauweise gegeben, kann aber auch durch ein Magnetisieren ferromagnetischer Teile des Aufbaus (z.B. metallische Massen eines Fidgetspinners) oder durch das Anbringen eines kleinen Magneten (wie bei Fahrradcomputern in den Speichen üblich) bei vielen Experimenten leicht ergänzt werden. Je nach Stärke des Magnetfelds kann sich das Smartphone in einem deutlichen Abstand zur Drehbewegung befinden. Zu beachten ist, dass die meisten Magnetometer im Smartphone bei wenigen Millitesla sättigen, was zu stärkerer Ausbildung von Obertönen im Spektrum führen kann (siehe Probleme und Lösungen unten). Hier sollten Magnet und Abstand des Handys sinnvoll gewählt werden.
 
-Die höchste messbare Frequenz richtet sich nach der halben Abtastrate des Magnetometers im jeweiligen Smartphone-Modell. Typisch messbaer Drehfrequenzen sind hier 25 Hz (1.500 1/min) oder 50 Hz (3.000 1/min).
+Die höchste messbare Frequenz richtet sich nach der halben Abtastrate des Magnetometers im jeweiligen Smartphone-Modell. Typisch messbare Drehfrequenzen sind hier 25 Hz (1.500 1/min) oder 50 Hz (3.000 1/min).
 
 ### Messung mittels Mikrofon
 
 Auch das Mikrofon bietet sich zur Messung der Drehzahl an, sofern die Drehbewegung ein Geräusch erzeugt, welches über den Umgebungsgeräuschen liegt. Dies ist in der Regel der Fall, wenn man bei Änderungen der Drehzahl eine Änderung der Tonhöhe des hörbaren Geräuschs wahrnimmt. Das Handy sollte idealerweise mit dem Mikrofon zum Aufbau ausgerichtet sein und nicht auf einem Untergrund liegen, über den andere Geräusche übertragen werden.
 
-Die höchste messbare Frequenz richtet sich nach der halben Abtastrate des Mikrofons. Diese beträgt bei nahezu allen Smartphones 48.000 Hz, was theoretisch die Messung von Drehzahlen bis 24 kHz ermöglicht. In der Praxis begegnet man eher dem Problem, dass niedrige Frequenzen nicht gut aufgenommen werden können und dass die eine hohe relative Frequenzauflösung bei derart hohen Abtastraten eine sehr hohe Anzahl Datenpunkte erfordert, weswegen das Mikrofon eher dann zum Einsatz kommen sollten, wenn die zu messenden Drehzahlen zu hoch für den Beschleunigungssensor sind.
+Die höchste messbare Frequenz richtet sich nach der halben Abtastrate des Mikrofons. Diese beträgt bei nahezu allen Smartphones 48.000 Hz, was theoretisch die Messung von Drehzahlen bis 24 kHz ermöglicht. In der Praxis begegnet man eher dem Problem, dass niedrige Frequenzen nicht gut aufgenommen werden können und dass eine hohe relative Frequenzauflösung bei derart hohen Abtastraten eine sehr hohe Anzahl Datenpunkte erfordert, weswegen das Mikrofon eher dann zum Einsatz kommen sollten, wenn die zu messenden Drehzahlen zu hoch für den Beschleunigungssensor sind.
 
 
 ### Messung mittels Kamera
 
 Ist die Drehbewegung sichtbar, bietet die Kamera des Smartphones gegebenenfalls eine einfache Alternative zur Messung der Drehzahl. Hierzu muss es eine Stelle geben, deren Helligkeit sich mit dem Drehwinkel periodisch ändert. Ist dies nicht in ausreichendem Maße gegeben, kann in der Regel leicht mit einem Stift oder einem Klebestreifen eine sichtbar Markierung ergänzt werden. Das Handy sollte sich zudem auf einem Stativ befinden, da die Messposition innerhalb des Kamerabildes fest eingestellt werden muss.
 
-Die höchste messbare Frequenz richtet sich nach der halben Bildrate der Kamera im jeweiligen Smartphone-Modell. Relevant ist hierbei nicht die höchste Bildrate für Zeitlupenvideos, sondern die höchste Bildrate, mit der das Handy einer App Bilder zur direkten Auswertung zur Verfügung stellen kann. Bei iPhones können so 200 Bilder pro Sekunde erreicht werden, was einer Drehzahl von 120 Hz (7.200 1/min) entspricht. Bei Android liegt das Limit derzeit bei 60 Bildern pro Sekunde und einer Drehzahl von 30 Hz (1.800 1/min).
+Die höchste messbare Frequenz richtet sich nach der halben Bildrate der Kamera im jeweiligen Smartphone-Modell. Relevant ist hierbei nicht die höchste Bildrate für Zeitlupenvideos, sondern die höchste Bildrate, mit der das Handy einer App Bilder zur direkten Auswertung zur Verfügung stellen kann. Bei iPhones können so 240 Bilder pro Sekunde erreicht werden, was einer Drehzahl von 120 Hz (7.200 1/min) entspricht. Bei Android liegt das Limit derzeit bei 60 Bildern pro Sekunde und einer Drehzahl von 30 Hz (1.800 1/min).
 
 
 ## Durchführung
@@ -111,11 +111,11 @@ Alle hier vorgestellten Messkonfigurationen führen eine Fouriertransformation d
 
 Für viele Messungen genügt es, im Spektrum die Frequenz mit der höchsten Amplitude abzulesen. Wichtig ist jedoch, die Grenzen zu kennen, innerhalb derer dies zutrifft.
 
-Die Frequenz-Achse des Fourier-Spektrums verläuft immer von 0 Hz bis zur Hälfte der Abtastrate \(f\) des Ausgangssignal. Misst man beispielsweise mit einem Beschleunigungssensor mit einer Abtastrate von \(f = 400\,\mathrm{Hz}\), erhält man ein Frequenzspektrum von 0 Hz bis 200 Hz (siehe [Abtasttheorem](https://de.wikipedia.org/wiki/Nyquist-Shannon-Abtasttheorem)). Da die Abtastrate durch das jeweilige Gerät begrenzt ist, hat man hierauf wenig Einfluss.
+Die Frequenz-Achse des Fourier-Spektrums verläuft immer von 0 Hz bis zur Hälfte der Abtastrate $f$ des Ausgangssignal. Misst man beispielsweise mit einem Beschleunigungssensor mit einer Abtastrate von \(f = 400\,\mathrm{Hz}\), erhält man ein Frequenzspektrum von 0 Hz bis 200 Hz (siehe [Abtasttheorem](https://de.wikipedia.org/wiki/Nyquist-Shannon-Abtasttheorem)). Da die Abtastrate durch das jeweilige Gerät begrenzt ist, hat man hierauf wenig Einfluss.
 
 Die Anzahl der Punkte auf der Frequenz-Achse entspricht hierbei der Hälfte der aufgezeichneten Messwerte \(N\). Nimmt man im obigen Beispiel also 256 Datenpunkte auf, werden die 200 Hz durch 128 Punkte im Spektrum abgedeckt. Dies bestimmt die spektrale Auflösung, welche somit der Abtastrate geteilt durch die Anzahl der Messpunkte entspricht \(\Delta f = f/N\). Im Beispiel liegen die Punkte im Spektrum somit im Abstand von etwa 1,56 Hz.
 
-Beachtet man, dass die Dauer zum Aufzeichnen einer Anzahl von Messwerten \(T = N/f\) entspricht, kann man auch feststellen, dass die spektrale Auflösung dem Kehrwert der Messdauer entspricht \(\Delta f = 1/T\). Im Beispiel dauert es 0,64 s um 256 Datenpunkte zu erhalten, was dem Kehrwert des Abstands der Datenpunkte im Spektrum von 1,56 Hz entspricht.
+Beachtet man, dass die Dauer zum Aufzeichnen einer Anzahl von Messwerten \(T = N/f\) entspricht, kann man auch feststellen, dass die spektrale Auflösung dem Kehrwert der Messdauer entspricht \(\Delta f = 1/T$\). Im Beispiel dauert es 0,64 s um 256 Datenpunkte zu erhalten, was dem Kehrwert des Abstands der Datenpunkte im Spektrum von 1,56 Hz entspricht.
 
 Hieraus ergibt sich ein Kompromiss aus Reaktionszeit der Messung und der Frequenzauflösung. Misst man eine konstante Drehzahl, kann eine sehr hohe Anzahl von Datenpunkten gewählt und so eine hohe Auflösung erzielt werden. Möchte man jedoch eine sich verändernde Drehzahl messen, muss die Anzahl der Punkte so gewählt werden, dass Änderungen schnell genug erfasst werden, zugleich aber die Frequenz noch genau genug bestimmt werden kann.
 
@@ -143,7 +143,7 @@ Möchte man beispielsweise die Drehzahl eines sich sehr langsam drehenden Fahrra
 
 Liegt die zu messende Frequenz oberhalb der halben Abtastrate des Sensors, kann diese Frequenz unter einem falschen Wert dennoch im Spektrum auftauchen. Dies ist der sogenannte [Alias-Effekt](https://de.wikipedia.org/wiki/Alias-Effekt). Durch diesen Effekt können Spektren entstehen, die nach einer gelungenen Messung aussehen, aber einen vollkommen falschen Wert liefern, weswegen man sich über die Größenordnung der zu messenden Frequenz gegenüber der Abtastrate des Sensors bewusst sein sollte. (Siehe Angaben zu Messbereichen im Abschnitt "Aufbau" zum jeweiligen Sensor.)
 
-![Drehzahl einer Festplatte mittels Beschleunigungssensor. Smartphone mit Abtastraten von nur 200 Hz würden hier fälschlicherweise eine Frequenz von 80 Hz anzeigen. Bei einer Abtastrate von 100 Hz wären es fälschlicherweise 20 Hz.](hdd.jpg){width=80%}
+![Drehzahl einer Festplatte mittels Beschleunigungssensor. Smartphones mit Abtastraten von nur 200 Hz würden hier fälschlicherweise eine Frequenz von 80 Hz anzeigen. Bei einer Abtastrate von 100 Hz wären es fälschlicherweise 20 Hz.](hdd.jpg){width=80%}
 
 ### Zu geringe Frequenzauflösung
 
@@ -160,8 +160,8 @@ Teil 1: Audio (Vor allem Musikinstrumente, teils aber auf Drehungen übertragbar
 
 Teil 2: Magnetismus
 
-{{< youtube 0gcJCc4JAYcqIYzv >}}
+{{< youtube 6eh_rMFi8j8 >}}
 
-Teil 3: Beschleunigung (bereits oben verlinkt)
+Teil 3: Beschleunigung (bereits oben eingebunden)
 
 {{< youtube eOEJcrPzsf4 >}}
