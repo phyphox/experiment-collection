@@ -22,7 +22,7 @@ tags:
   - 'Drehfrequenz'
   - 'Umlauffrequenz'
 
-summary: 'Miss die Drehzahl verschiedener Experimente und Geräte mittels Beschleunigungssensor, Magnetometer oder '
+summary: 'Miss die Drehzahl verschiedener Experimente und Geräte mittels Beschleunigungssensor, Magnetometer, Mikrofon oder Kamera.'
 ---
 
 {{< youtube eOEJcrPzsf4 >}}
