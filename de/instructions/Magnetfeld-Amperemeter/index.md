@@ -10,6 +10,7 @@ translationKey: "Magnetfeld Amperemeter"  # This has to be the same across all t
 
 author:                                 # One or more authors of this document (i.e. your name and anyone who contributed)
   - Alexander Pusch
+  - Christoph Holz
 
 CreativeCommons: ['BY']                 # License of this document and embedded materials (images). This should be a Creative Commons licence. Make this an array of the different CC modules that apply.
 # Examples:
