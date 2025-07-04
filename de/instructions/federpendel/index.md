@@ -5,8 +5,8 @@
 # These instructions are not worksheets by themselves and while they can be used by students, they do not directly address students.
 # Worksheets should be linked at the end of the instructions (compare with existing experiments).
 
-title: "Fadenpendel"                       # Title of the experiment
-translationKey: "Fadenpendel"  # This has to be the same across all translations of the same instructions and allows linking to different language versions despite them having different titles
+title: "Federpendel"                       # Title of the experiment
+translationKey: "Federpendel"  # This has to be the same across all translations of the same instructions and allows linking to different language versions despite them having different titles
 
 author:                                 # One or more authors of this document (i.e. your name and anyone who contributed)
   - Alexander Pusch
@@ -16,7 +16,7 @@ CreativeCommons: ['BY']                 # License of this document and embedded 
 # Examples:
 # CC-0        => ['0']
 # CC-BY-SA    => ['BY', 'SA']
-CC-BY-NC-SA => ['BY', 'NC', 'SA']
+CC-BY-NC-SA # => ['BY', 'NC', 'SA']
 # CC-BY-ND    => ['BY', 'ND']
 # See https://creativecommons.org/share-your-work/ for details
 
@@ -58,16 +58,18 @@ summary: 'This is a short summary of the experiment, which is shown in listings 
 
 ## Overview
 
-Ein Fadenpendel kann leicht aus mit Haushaltsmitteln und einfachem Sammlungsmaterial aufgebaut werden. Die Bewegung über das Gyroskop (eigentlich ein Drehratensensor) des Smartphones aufgezeichnet. Dieser misst nicht die Beschleunigung, sondern erfasst die Winkelgeschwindigkeit erfasst.
+Ein Federpendel lässt sich einsetzen, um (harmonische) Oszillationen zu zeigen, die Periodendauer zu bestimmen oder auch um gedämpfte Schwingungen zu untersuchen. Der Aufbau erfolgt mit gängigem Stativmaterial und einer Schraubfeder. 
 
 Aufbau:
-- Das Smartphone wird an einem, besser aber zwei Fäden (bifilar) an einer Stativstange aufgehangen.
+- Das Smartphone wird an einer Schraubfeder an einer Stativstange aufgehangen.
 - Es eignen sich Druckverschlussbeutel, Versandtaschen, Topflappen oder eine Papprolle um das Smartphone aufzunehmen.
+- Alternativ: Anstelle der Schraubenfeder lässt sich auch ein dickeres Gummiband untersuchen. Dieses resultiert dann allerdings nicht in einer idealen harmonischen Oszillation. 
 
 Durchführung
-- Starten Sie das Experiment "Gyroskop (Drehrate)" und lenken das Pendel aus. In der ersten Ansicht werden die Werte für die Winkelgeschwindigkeit der einzelnen Koordinatenachsen angezeigt.
-- Alternativ: In dem vorgefertigten Experiment "Fadenpendel" lässt sich u.a. neben der Frequenz und Periode auch die aus den Schwingungsdaten ermittelte Pendellänge zum Massenmittelpunkt ausgeben
+- Starten Sie das Experiment "Beschleunigung ohne g" und lenken das Pendel aus.
+- In der ersten Ansicht in der App werden die Werte für die Beschleunigung der einzelnen Koordinatenachsen angezeigt.
+- Auf den Graphen ist eine Oszillation erkennbar, die sich je nach Ausrichtung des Smartphones und Bewegungsrichtung in einer oder zwei Achsen besonders deutlich zeigt.
+- Ein Schlingern des Smartphones beim Pendeln kann zu vom idealen Modell abweichenden Ergebnissen führen. 
 
 Hinweise:
-- Die Fadenlänge lässt sich kürzen, indem bspw. indem ein paar Windungen um die Stativstange gewickelt werden.
-- Bei dem Aufbau mit dem Druckverschlussbeutel ist im Vergleich zu einer Variante mit einer Papprolle auch besser die Dämpfung durch Luftreibung erkennbar.
+- Durch die Verwendung von unterschiedlich großen Pappscheiben, die waagerecht am unteren Ende der Feder befestigt werden, lassen sich verschieden starke Dämpfungen realisieren.
