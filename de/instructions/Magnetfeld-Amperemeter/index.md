@@ -69,9 +69,9 @@ Es kann daher Näherungsweise ein proportionaler Zusammenhang zwischen B und I a
 
 
 Bestimmung der Stromstärke:
-1. Eine kleine Spule wird gewickelt (z.B. 30 Windungen, um eine Stativstange) und über dem Magnetometer platziert (austesten mit einem kleinen Probemagneten).
+1. Eine kleine Spule wird gewickelt (z.B. 30 Windungen, um eine Stativstange) und über dem Magnetometer platziert (austesten mit einem kleinen Probemagneten). (vgl. Abb.1)
 2. Das Experiment wird zu phyphox hinzugefügt: phyphox://phyphox.org/wiki/images/6/65/Amperemeter-Clip_Phyphox_App.phyphox und gestartet
-3. Eine Kalibrierung wird im Phyphox experiment durchgeführt. Hierzu sind zwei Wertepaare erforderlich. Ein Wertepaar kann 0A und die gemessene Magnetische Feldstärke sein. Das zweite Wertepaar wird anhand einer bekannten angelegten Stromstärke aufgenommen.
+3. Eine Kalibrierung wird im Phyphox experiment durchgeführt. Hierzu sind zwei Wertepaare erforderlich. Ein Wertepaar kann 0A und die gemessene Magnetische Feldstärke sein. Das zweite Wertepaar wird anhand einer bekannten angelegten Stromstärke aufgenommen. (vgl. Abb. 2 und 3)
 4. Wenn das Experiment auf die gewickelte Spule kalibriert wurde, können verschiedene Stromstärken mit Phyphox bestimmt werden. 
 
 Abbildung 1: gewickelte Spule auf Smartphone mit optionalem 3D-Druckteil.
@@ -85,6 +85,8 @@ Hinweise zur Spule:
 - Bei Nutzung eines Eisenkerns können die Größe des erzeugen Magnetfeldes und somit die Messgenauigkeit um ein Vielfaches erhöht werden.
 
 
+Abbildung 2: Kalibrierung mittels zweier Wertepaare.
+Abbildung 3: Nutzung des Experiments zur Anzeige der Stromstärke.
 
 
 Weiterführende Informationen zu dem Experiment, eine optionale 3D-Datei und Ideen für weitere Möglichkeiten (z.B. Permeabilitätszahl bestimmen) finden sich hier: 
