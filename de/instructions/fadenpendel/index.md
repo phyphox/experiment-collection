@@ -12,11 +12,11 @@ author:                                 # One or more authors of this document (
   - Alexander Pusch
   - Sebastian Staacks
 
-CreativeCommons: ['BY']                 # License of this document and embedded materials (images). This should be a Creative Commons licence. Make this an array of the different CC modules that apply.
+CreativeCommons: ['BY', 'NC', 'SA']                 # License of this document and embedded materials (images). This should be a Creative Commons licence. Make this an array of the different CC modules that apply.
 # Examples:
 # CC-0        => ['0']
 # CC-BY-SA    => ['BY', 'SA']
-CC-BY-NC-SA => ['BY', 'NC', 'SA']
+# CC-BY-NC-SA => ['BY', 'NC', 'SA']
 # CC-BY-ND    => ['BY', 'ND']
 # See https://creativecommons.org/share-your-work/ for details
 
