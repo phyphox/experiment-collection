@@ -12,11 +12,11 @@ author:                                 # One or more authors of this document (
   - Alexander Pusch
   - Christoph Holz
 
-CreativeCommons: ['BY']                 # License of this document and embedded materials (images). This should be a Creative Commons licence. Make this an array of the different CC modules that apply.
+CreativeCommons: ['BY', 'NC', 'SA']                 # License of this document and embedded materials (images). This should be a Creative Commons licence. Make this an array of the different CC modules that apply.
 # Examples:
 # CC-0        => ['0']
 # CC-BY-SA    => ['BY', 'SA']
-CC-BY-NC-SA => ['BY', 'NC', 'SA']
+# CC-BY-NC-SA => ['BY', 'NC', 'SA']
 # CC-BY-ND    => ['BY', 'ND']
 # See https://creativecommons.org/share-your-work/ for details
 
@@ -55,9 +55,7 @@ tags: # These are free tags that help finding the experiment and that can be use
   - 'Permeabilitätszahl'  # Example 3
 
 
-summary: 'This is a short summary of the experiment, which is shown in listings with multiple experiments.'
-In diesem Experiment wird der Magnetfeldsensor verwendet um indirekt über die magnetische Wirkung die Stromstärke zu ermitteln. Darüber hinaus können anhand einer Referenzmessung (z.B. mit bekannter Permeabilitätszahl von Luft) die Permeabilitätszahlen unterschiedlicher Spulenkern eermittelt und verglichen werden .
-Um die Praktikabilität und Reproduzierbarkeit im Experiment zu erhöhen, kann eine einfache Halterung aus dem 3D-Drucker verwendet werden, um die Spule am Smartphone zu fixieren. Alternativ funktioniert auch Klebeband.
+summary: 'In diesem Experiment wird der Magnetfeldsensor verwendet um indirekt über die magnetische Wirkung die Stromstärke zu ermitteln.'
 
 ## Overview
 
